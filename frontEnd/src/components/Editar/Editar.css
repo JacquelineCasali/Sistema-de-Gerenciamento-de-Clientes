@@ -1,0 +1,63 @@
+
+.h2{
+  margin:   0px 0  0 0;
+  
+}
+form{
+display: inline-grid;  
+  width: 60%;
+  /* margin: 15px 0; */
+}
+
+form label {
+  display: flex;
+  font-size: 20px;
+  margin: 10px 0 2px 0;
+  font-weight: bold;
+}
+
+.form-control{
+  width: 90%;
+  padding: 10px 25px;
+  border: 1px solid #333;
+  border-radius: 10px;
+  font-size: 20px;
+  margin: 0 0 10px 0;
+}
+.cadastrar{
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  border: none;
+  height: 50px;
+  padding: 10px;
+ margin-right: 10px;
+  border-radius: 20px;
+  margin-top: 20px;
+  color: #fff;
+  background-color: green;
+  cursor: pointer;
+  width: 90%;
+ 
+}
+.cadastrar:hover  {
+  background-color: #1b223c;
+  transition: 0.5s;
+}
+
+.cadastrar:active{
+  background: black;
+}
+/* responsividade */
+@media (max-width: 480px) {
+ 
+}
+
+@media (max-width: 380px) {
+ 
+}
+@media screen and (max-width:768px) {
+}
+
+    @media screen and (max-width: 1200px) {
+      }
