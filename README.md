@@ -5,10 +5,6 @@ Este Projeto onde é possivel listar, visualizar, criar, editar, excluir cliente
 ![Video_2024-03-08_161607](./Video_2024-03-08_161607.gif)
 
 
-  <img src="./frontEnd/src/assets/2023-06-14_081950.jpg" width="600px">
-
-
-
 ## Repositorio do Projeto
 
 https://github.com/JacquelineCasali/Sistema-de-Gerenciamento-de-Clientes.git
@@ -26,7 +22,7 @@ https://github.com/JacquelineCasali/Sistema-de-Gerenciamento-de-Clientes.git
 Database data `server/app.js`
 `$ cd server`
 `$ npm install`
-`$ npm start`
+`$ npm run dev`
 
 ## BackEnd
 
@@ -40,7 +36,7 @@ Database data `server/app.js`
 
 ### Front-end
 
-- `React.js /vite`
+- `React.js Versão 18 /vite` 
 - `Axios`
 
 ### Back-end
@@ -49,3 +45,5 @@ Database data `server/app.js`
 - `postgres`
 - `nodemon`
 - `cors`
+banco no arquivo env
+POSTGRES_URL=postgres://khvbnwlq:HWc4tqEq99B2NE_wIIViljyIhcCvbtw5@babar.db.elephantsql.com/khvbnwlq
