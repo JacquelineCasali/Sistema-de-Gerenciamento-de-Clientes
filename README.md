@@ -1,21 +1,17 @@
-# Projeto desenvolvido com
+# Projeto Sistema-de-Gerenciamento-de-Clientes
 
-# React-JS--Crud-Mysql
-
-Este Projeto onde é possivel listar, visualizar, criar, editar, excluir estudantes.
+Este Projeto onde é possivel listar, visualizar, criar, editar, excluir clientes e calcular rota de distancia .
 
 ![Video_2024-03-08_161607](./Video_2024-03-08_161607.gif)
 
 
   <img src="./frontEnd/src/assets/2023-06-14_081950.jpg" width="600px">
 
-## Site do Projeto
 
-https://lista-de-estudante-react-php.vercel.app/
 
 ## Repositorio do Projeto
 
-https://github.com/JacquelineCasali/lista-de-estudante-front-back.git
+https://github.com/JacquelineCasali/Sistema-de-Gerenciamento-de-Clientes.git
 
 ## Instalação
 
@@ -38,7 +34,7 @@ Database data `server/app.js`
 - Ler Cliente no banco de dados
 - Atualizar Cliente no banco de dados
 - Excluir Cliente no banco de dados
-- Clique no cartão para editar e excluir
+
 
 ## Bibliotecas Usadas
 
