@@ -18,6 +18,9 @@ export default function Editar() {
 
         setValues(res.data[0]);
       })
+
+
+      
       .catch((err) => console.log(err));
   }, []);
 
@@ -25,6 +28,9 @@ export default function Editar() {
     nome: "",
     email: "",
     telefone:"",
+    latitude :"",
+    longitude:"",
+    
   });
   //  editar
   const navigate = useNavigate();
@@ -36,8 +42,15 @@ export default function Editar() {
         console.log(res);
         navigate("/");
       })
-      .catch((err) => console.log(err));
-  };
+     // .catch((err) => console.log(err));
+     .catch((error) =>
+     {
+    const { data } = error.response;
+   
+    alert(data.msg);
+      console.log(data.msg)});
+  
+    };
 
   return (
     <section >
@@ -86,7 +99,25 @@ export default function Editar() {
               onChange={(e) => setValues({ ...values, telefone: e.target.value })}
           
            />
-    
+ <label htmlFor="">Coordenada X :</label>
+<input
+  className="form-control"
+  type="text"
+  placeholder="Digite cordenada X"
+  value={values.latitude}
+  onChange={(e) => setValues({ ...values, latitude : e.target.value })}
+
+/>
+    <label htmlFor="">Coordenada Y :</label>
+
+<input
+  className="form-control"
+  type="text"
+  placeholder="Digite cordenada y"
+  value={values.longitude}
+  onChange={(e) => setValues({ ...values, longitude : e.target.value })}
+
+/>
           <button className="cadastrar">Editar</button>
         </form>
        

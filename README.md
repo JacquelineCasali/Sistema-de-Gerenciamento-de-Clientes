@@ -2,7 +2,7 @@
 
 Este Projeto onde é possivel listar, visualizar, criar, editar, excluir clientes e calcular rota de distancia .
 
-![Video_2024-03-08_161607](./Video_2024-03-08_161607.gif)
+![Video_cadastro](./Video_cadastro.wmv)
 
 
 ## Repositorio do Projeto

@@ -48,6 +48,13 @@ form label {
 .cadastrar:active{
   background: black;
 }
+
+
+.mapa{
+  height: 50vh;
+  margin-top: 15px;
+  
+}
 /* responsividade */
 @media (max-width: 480px) {
  

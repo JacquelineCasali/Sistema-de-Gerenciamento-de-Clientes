@@ -1,18 +1,18 @@
 import React from "react";
 import { Helmet, HelmetProvider } from "react-helmet-async"; // titulo da pagina
-import TabeladeClientes from '../components/Tabelas/TabeladeClientes';
+import TabeladeVisitacao from '../components/Tabelas/TabeladeVisitacao';
 
-export default function Home() {
+export default function OrdemVisitacao() {
   return (
   
 
    <>
      <HelmetProvider>
-        <Helmet title="Sistema de Gerenciamaneto de Clientes" />
+        <Helmet title="Ordem de Visitação Clientes" />
       </HelmetProvider>
 
 
-   <TabeladeClientes/>
+ <TabeladeVisitacao/>
    </>
    
     

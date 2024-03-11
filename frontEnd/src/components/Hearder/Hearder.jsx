@@ -20,8 +20,7 @@ function Hearder() {
 
           <Link to={`/cadastro`}>
           Cadastrar</Link>
-          <Link to={`/rotas`}>
-          Rotas</Link>
+      
       </nav>
 
      {/* botao responsivo */}

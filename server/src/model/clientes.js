@@ -22,8 +22,16 @@ module.exports = (sequelize, Sequelize) => {
       allowNull: false,
       UNIQUE:true
     },
-
+    latitude: {
+      type: Sequelize.NUMERIC,
     
+     
+    },
+    longitude : {
+      type: Sequelize.NUMERIC,
+    
+     
+    },
   });
   return Clientes;
 };

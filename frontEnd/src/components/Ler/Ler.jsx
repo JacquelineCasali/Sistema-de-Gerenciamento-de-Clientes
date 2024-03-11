@@ -18,12 +18,14 @@ function Ler() {
   return (
       <div className="m-5">
         
-          <h2 className="mb-4">Detalhe Cadastro Cliente</h2>
+          <h2 className="h2 p-2">Detalhe Cadastro Cliente</h2>
         
-          <p>Nome: {clientes.nome}</p>
-          <p>Email: {clientes.email}</p>
-          <p>Telefone: {clientes.telefone}</p>
-        
+          <p className="p-2">Nome: {clientes.nome}</p>
+          <p className="p-2">Email: {clientes.email}</p>
+          <p className="p-2">Telefone: {clientes.telefone}</p>
+          <p className="p-2">Cordenada X:{clientes.latitude }</p>
+          <p className="my-3">Cordenada Y:{clientes.longitude }</p>
+                 
         <Link to="/" className="btn btn-primary me-2">
           Voltar
         </Link>

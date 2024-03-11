@@ -9,7 +9,9 @@ import Footer from "../components/Footer/Footer";
 import Hearder from "../components/Hearder/Hearder";
 import Container from "../components/Container/Container";
 import Error from "../page/Error/Error";
-import MapaPage from "../page/MapaPage";
+import OrdemVisitacao from "../page/OrdemVisitacao";
+
+// import MapaPage from "../page/MapaPage";
 const AppRoutes = () => {
   return (
     <Router>
@@ -20,8 +22,8 @@ const AppRoutes = () => {
        <Route exact path="/cadastro" element={<Cadastro />} />
        <Route exact path="/:id" element={<Ler />} />
       <Route exact path="/edit/:id" element={<Editar />} />  
-      <Route exact path="/rotas" element={<MapaPage />} />  
-      
+      {/* <Route exact path="/rotas" element={<MapaPage />} />   */}
+      <Route exact path="/ordem" element={<OrdemVisitacao />} /> 
     <Route path="*" element={<Error />} />
     </Routes>
     </Container>
